@@ -10,10 +10,14 @@
   <meta content="" name="keywords">
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
   
 
   <!-- Favicons -->
@@ -36,7 +40,6 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex">
@@ -101,27 +104,23 @@
           </li>
           <li><a href="">BERITA</a></li>
           <li><a href="">FEEDBACK</a></li>
-          <li><a href="">KONTAK</a></li>
-          <i class='fas fa-search' style='font-size:24px'></i>  
+          <li><a href="">KONTAK</a></li><span class="glyphicon glyphicon-search"></span>
         </ul>
-        
       </nav><!-- .nav-menu -->
-
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <div class="row">
+      <div class="w3-row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
           <img src="assets/img/Cover.png" class="img-fluid animated" alt="">
         </div>
         <div class="col-lg-6 order-1 order-lg-2">
           <h1 style="font-family: Arial, Helvetica;">BIG DATA</h1>
           <h2>
-            The best and most reliable data<br> 
-            analysis system</h2>
+            Sistem analisis data terbaik dan <br> paling dapat diandalkan</h2>
           <a href="#feature" class="btn-get-started scrollto">GET STARTED</a>
         </div>
       </div>
@@ -129,77 +128,64 @@
 
   </section><!-- End Hero -->
 
-  <main id="main">
-
-    <!-- ======= Feature Section ======= -->
-    <section id="feature" class="feature section-bg">
+<main id="main">
+  <!-- ======= Feature Section ======= -->
+  <section id="feature" class="feature section-bg" style="background-image: url('BGfeature.png');height: 980px;">
       <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <p>Our Feature</p>
+        <div class="section-title" style="text-align: center;">
+          <p>Big Data Fitur</p>
         </div>
-        <div class="row">
-          <div class="col-sm d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
+        <div class="card" >
+        <div class="row" >
+          <div class="col-sm  align-items-stretch" >
+            <div class="icon-box" >
               <img src="assets/img/High Performance.png" class="img-fluid animated" alt="">
-              <h4 class="title"><a href="">High Performance</a></h4>
+              <h4 class="title"><a href="">Performa Tinggi</a></h4>
               <p class="description">
-                Utilizing an in memory data
-                architecture along with superb
-                parallel processing and minimal
-                overhead grants benchmarkshattering
-                performance</p>
+                Memanfaatkan arsitektur data dalam<br> memori bersama dengan pemrosesan <br>paralel yang luar biasa dan kinerja<br> penghancur benchmark benchmark<br> minimal
+              </p>
             </div>
           </div>
-
-          <div class="col-sm d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-sm  align-items-stretch" >
             <div class="icon-box">
               <img src="assets/img/High Scalability.png" class="img-fluid animated" alt="">
-              <h4 class="title"><a href="">High Scalability</a></h4>
+              <h4 class="title"><a href=""> Skalabilitas Tinggi</a></h4>
               <p class="description">
-                Scale out horizontally with
-                commodity hardware while
-                maintaining the same
-                excellent in memory performance</p>
+                Skala secara horizontal dengan<br> perangkat keras komoditas sambil <br>mempertahankan kinerja memori yang <br> sangat baik
+              </p>
             </div>
           </div>
-
-          <div class="col-sm d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-sm  align-items-stretch" >
             <div class="icon-box">
               <img src="assets/img/High Reability.png" class="img-fluid animated" alt="">
-              <h4 class="title"><a href="">High Reliability</a></h4>
+              <h4 class="title"><a href="">Keandalan Tinggi</a></h4>
               <p class="description">
-                Non-stop operations even
-                when tasked with adding
-                new nodes or when facing
-                inevitable node failures</p>
+                Operasi non stop bahkan ketika<br> ditugaskan untuk menambahkan node<br> baru atau ketika menghadapi<br> kegagalan simpul yang tak terelakkan
+              </p>
             </div>
           </div>
-
         </div>
-
-      </div>
-    </section><!-- End feature Section -->
+        </div>
+    </div>
+  </section><!-- End feature Section -->  
 
     <!-- ======= Practical Section ======= -->
-    <section id="practical" class="practical section-bg">
+    <section id="practical" class="practical">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <p>Practical Concept</p>
+          <p>Penerapan Konsep Secara Praktis</p>
         </div>
         <div class="row">
           <div class="col-sm align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <h3><b>Enterprise Big Data Professional</b></h3>
             
-            <h4>An Enterprise Big Data Science Professional has<br>
-              demonstrated proficiency<br> in the analysis practices and
-              technology<br> concepts and mechanisms</h4  >
+            <h4>Profesional Big Data Science Professional<br> telah menunjukkan kecakapan dalam<br> praktik analisis dan konsep dan<br> mekanisme teknolog</h4>
             <br>
             <br>
             <h3><b>Enterprise Big Data Analyst</b></h3>
             <h4>
-              An Enterprise Big Data Analyst has <br> demonstrated
-              proficiency in the most<br> common Big Data analysis and
-              analytics<br> concepts and techniques</h4>
+              Analisis Data Perusahaan Besar telah<br> menunjukkan kemahiran dalam analisis<br> dan konsep analitik Big Data yang paling<br> umum dan teknik
+            </h4>
           </div>
           <div class="col-sm align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
             <img src="assets/img/Concept.png" class="img-fluid animated" alt="">
@@ -210,87 +196,91 @@
             <br>
             <br>
             <br>
-            <br>
-            
             <h3 style="text-align: right;"><b>Enterprise Big Data Science</b></h3>
-            <h4 style="text-align: right;">An Enterprise Big Data Scientist has<br> demonstrated
-              proficiency in the<br> application of techniques and <br>tools
-              required for exploring large</h4>
+            <h4 style="text-align: right;">Enterprise Big Data Scientist telah<br> menunjukkan kemahiran dalam penerapan<br> teknik dan alat yang diperlukan untuk<br> menjelajahi besar
+            </h4>
             <br>
-            <br>
-            
             <h3 style="text-align: right;"><b>Enterprise Big Data Engineer</b></h3>
             <h4 style="text-align: right;">
-              An Enterprise Big Data Engineer has<br> 
-              demonstrated proficiency in the design,<br>
-              implementation, and integration</h4>
-          </div>
+              Insinyur Big Data Engineer telah<br> menunjukkan kecakapan dalam desain,<br>implementasi, dan integrasi</h4>
+          
+            </div>
         </div>
       </div>
 
     </section><!-- End Hero -->
 
     <!-- ======= public service Section ======= -->
-    <section id="public" class="public section-bg">
+    <section id="public" class="public section-bg" style="background-image: url('BGservice.png');height: 800px;">
       <div class="container">
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title" data-aos="fade-up">  
           <br>
           <p>Public Cloud Service</p>
         </div>
         <div class="row">
           <div class="col-sm d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <h4 class="title"><a href="">Data Hub</a></h4>
-              <img src="assets/img/Data Hub.png" class="img-fluid animated" alt="">
-              <p class="description">
-                A cloud service that simplifies the
-                creation of data management and
-                analytic clusters to support diverse
-                use cases and enable faster
-                development of custom business
-                applications</p>
+           <div class="icon-box">
+              <div class="card-dh">
+              <div class="card" style="width: 30rem;">
+                <h4 class="title"><a href="">Data Hub</a></h4>
+                <img class="card-img-top" src="assets/img/Data Hub.png" class="img-fluid animated" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text">
+                  Layanan cloud yang menyederhanakan pembuatan menajemen data dan cluster analitik<br> untuk mendukung beragam kasus<br> penggunaan dan memungkinkan<br> pengembangan aplikasi bisnis<br> kustom yang lebih cepat
+                </p>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
 
           <div class="col-sm d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <h4 class="title"><a href="">Data Warehouse</a></h4>
-              <img src="assets/img/Data Warehouse.png" class="img-fluid animated" alt="">
-              <p class="description">
-                A cloud service for creating
-                self-service data warehouses and the
-                underlying compute clusters for
-                teams of business analysts</p>
+              <div class="card-dw">
+              <div class="card" style="width: 30rem;">
+                <h4 class="title"><a href="">Data Warehouse</a></h4>
+                <img class="card-img-top" src="assets/img/Data Warehouse.png" class="img-fluid animated" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">
+                    Layanan cloud untuk membuat<br> gudang data layanan mandiri dan <br>kelompok komputasi yang mendasari<br> untuk tim analis bisnis<br>
+                  </p>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
 
           <div class="col-sm d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <h4 class="title"><a href="">Machine Learning</a></h4>
-              <img src="assets/img/Machine Learning.png" class="img-fluid animated" alt="">
-              <p class="description">
-                A cloud service for creating self-service
-                machine learning workspaces and the
-                underlying compute clusters for teams of
-                data scientists</p>
+              <div class="card-ml">
+              <div class="card" style="width: 30rem;">
+                <h4 class="title"><a href="">Machine Learning</a></h4>
+                <img class="card-img-top" src="assets/img/Machine Learning.png" class="img-fluid animated" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">
+                    Layanan cloud untuk membuat <br> ruang kerja pembelajaran mesin<br> swalayan dan kelompok komputasi<br> yang mendasari untuk tim ilmuwan data
+                  </p>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
 
         </div>
-
       </div>
+      </div>  
     </section><!-- public Section -->
 
     
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <section id="pricing" class="container-fluid" style="background-color: #F9F9F9;">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <p>Price Package </p>
+          <p>Paket Harga </p>
         </div>
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="w3-row" data-aos="fade-up" data-aos-delay="100">
           <div class="columns">
             <ul class="price-plan">
               <table class="table table-striped" style="border-style: hidden; border-color: black;">
@@ -331,7 +321,7 @@
             </ul>
           </div>
           <div class="columns">
-            <ul class="price-basic">
+            <ul class="price-basic" >
               <table class="table table-striped" style="border-style: hidden; border-color: black;">
                 <thead>
                   <tr>
@@ -458,10 +448,11 @@
       </div>
     </section><!-- End pricing Section -->
 
-     <!-- ======= Clients Section ======= -->
-     <section id="clients" class="clients section-bg">
+    <!-- ======= client & F.A.Q Section ======= -->
+    
+    <section id="faq" class="faq section-bg"style="background-image: url('BGclient.png');">
       <div class="container">
-        <div class="section-title" data-aos="fade-up">
+        <div class="section-title">
           <p>Our Client</p>
         </div>
         <div class="owl-carousel clients-carousel" data-aos="fade-up" data-aos-delay="100">
@@ -471,62 +462,64 @@
           <img src="assets/img/p4.png" alt="">
           <img src="assets/img/p5.png" alt="">
         </div>
-
       </div>
-    </section><!-- End Clients Section -->
-
-    <!-- ======= F.A.Q Section ======= -->
-    <section id="faq" class="faq section-bg">
+      
       <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <br>
-          <p>FAQs</p>
-          <h2>Frequently Asked Question </h2>
-          <h3>How are some common question about our product</h3>
-        </div>
+      <div class="row">
+      <div class="col"> 
         <ul class="faq-list">
           <li data-aos="fade-up" data-aos-delay="100">
-            <a data-toggle="collapse" class="collapse" href="#faq1" >Can i get the 24 hours customer services? <i class="icofont-simple-down"></i></a>
+            <a data-toggle="collapse" class="collapsed1" href="#faq1" >Bisakah saya mendapatkan Customer Service 24 jam ? <span class="icofont-simple-down"></span></a>
             <div id="faq1" class="collapse" data-parent=".faq-list">
               <p>
-                Yes, you just can send us a message to our contact
+                Ya, Anda hanya dapat mengirim pesan kepada kami di kontak kami
               </p>
             </div>
           </li>
 
           <li data-aos="fade-up" data-aos-delay="200">
-            <a data-toggle="collapse" href="#faq2" class="collapsed">What is my question? <i class="icofont-simple-down"></i></a>
+            <a data-toggle="collapse" class="collapsed2" href="#faq2" >Apa pertanyaan saya? <span class="icofont-simple-down"></span></a>
             <div id="faq2" class="collapse" data-parent=".faq-list">
               <p>
-                aa
+                Apa itu Big Data ?
               </p>
             </div>
           </li>
 
           <li data-aos="fade-up" data-aos-delay="300">
-            <a data-toggle="collapse" href="#faq3" class="collapsed">Where is the office? <i class="icofont-simple-down"></i></a>
+            <a data-toggle="collapse"class="collapsed3" href="#faq3" >Dimana kantor Big Data?  <span class="icofont-simple-down"></span></a>
             <div id="faq3" class="collapse" data-parent=".faq-list">
               <p>
-                bb
+                Telkom University
               </p>
             </div>
           </li>
-
+          <li data-aos="fade-up" data-aos-delay="300">
+            <a data-toggle="collapse"class="collapsed4" href="#faq3" ></a>
+          </li>
         </ul>
-
+      </div>
+      <div class="col">
+        <div class="section-title">
+          <p>FAQs</p>
+          <h2>Frequently Asked Question </h2>
+          <h3>Bagaimana beberapa pertanyaan umum tentang produk kami ?</h3>
+        </div>
+      </div>
+      </div>
       </div>
     </section><!-- End F.A.Q Section -->
+    </div>
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <footer id="footer" class="container-fluid">
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
-          <div class="col-6 col-md-4 footer-contact" data-aos="fade-up" data-aos-delay="100">
+          <div class="col footer-contact" data-aos="fade-up" data-aos-delay="100">
             <h3>GET IN TOUCH</h3>
             <p>
               Kawasan Pendidikan Telkom, Ters. Buah Batu, <br>
@@ -539,22 +532,23 @@
             </p>
           </div>
 
-          <div class="col-6 col-md-4 footer-links" data-aos="fade-up" data-aos-delay="200">
+          <div class="col footer-links">
             <h4>Link Terkait</h4>
             <ul>
+             
               <li><a href="https://www.telkomuniversity.ac.id/" class="btn btn-link">Telkom University</a></li>
               <li><a href="http://ypt.or.id/" class="btn btn-link">Telkom Foundation</a></li>
               <li><a href="https://www.telkom.co.id/sites" class="btn btn-link">Telkom Indonesia</a></li>
             </ul>
           </div>
 
-          <div class="col-6 col-md-4 footer-links" data-aos="fade-up" data-aos-delay="400">
-            <div class="social-links mt-3">
-              <a href="https://www.instagram.com/bandungtechnopark/" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="https://twitter.com/info_btp" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="https://www.facebook.com/technopark/?ref=br_rs" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.youtube.com/user/bandungtechnopark" class="google-plus"><i class="bx bxl-youtube"></i></a>
-              <a href="https://www.linkedin.com/company/bandung-techno-park/about/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <div class="col footer-links">
+            <div class="social-links">
+              <a href="https://www.instagram.com/bandungtechnopark/" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/info_btp" class="twitter"><i class="fa fa-twitter"></i></i></a>
+              <a href="https://www.facebook.com/technopark/?ref=br_rs" class="facebook"><i class="fa fa-facebook"></i></i></a>
+              <a href="https://www.youtube.com/user/bandungtechnopark" class="google-plus"><i class="fa fa-youtube"></i></i></a>
+              <a href="https://www.linkedin.com/company/bandung-techno-park/about/" class="linkedin"><i class="fa fa-linkedin"></i></i></a>
             </div>
           </div>
 
